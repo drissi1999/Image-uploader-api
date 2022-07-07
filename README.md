@@ -50,7 +50,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/drissi1999/Image-uploader.git
+$ git clone https://github.com/drissi1999/Image-uploader-api.git
 
 # Install dependencies
 $ npm install
