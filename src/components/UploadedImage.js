@@ -3,7 +3,7 @@ import checkicon from "../assets/check-icon.jpg";
 import toast from "react-hot-toast";
 
 function UploadedImage({ imageUrl }) {
-  const uri = `${process.env.REACT_APP_BACKEND_URL}${imageUrl}`;
+  const uri = `${process.env.https://drissi999.herokuapp.com/}${imageUrl}`;
   const copyButton = useRef();
 
   useEffect(() => {
