@@ -38,7 +38,7 @@ function ImagePicker({ setImageUrl, setLoader }) {
       const formData = new FormData();
       formData.append("file", file, file.name);
       await axios
-        .post(`${process.env.REACT_APP_BACKEND_URL}/upload`, formData)
+        .post(`${process.env.https://drissi999.herokuapp.com/}/upload`, formData)
         .then((res) => {
           res.data.response.msg === "file uploaded" &&
             setImageUrl(res.data.response.imageUrl);
